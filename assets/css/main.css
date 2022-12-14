@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #00c8ff;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -2153,6 +2153,11 @@ input, select, textarea {
 					font-size: 0.8em;
 				}
 
+				#nav ul li a:hover {
+					color: #fff;
+					border-bottom-color: rgba(255, 255, 255, 0);
+				}
+
 					#nav ul li a span:before {
 						position: absolute;
 						left: 0;
@@ -2237,6 +2242,7 @@ input, select, textarea {
 				}
 
 					#main > section.dark a:hover {
+						color: #00c8ff;
 						border-bottom-color: rgba(255, 255, 255, 0);
 					}
 
@@ -2260,7 +2266,8 @@ input, select, textarea {
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #fff;
+				background-image: url("../../images/code.jpg");
 			}
 
 /* Wide */
